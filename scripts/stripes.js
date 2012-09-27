@@ -26,8 +26,13 @@
 var Nodes = {
 
   // Settings
+<<<<<<< HEAD
   density: 30,
   reactionSensitivity: 4,
+=======
+  density: 6,
+  reactionSensitivity: 3,
+>>>>>>> 76eb208c48016ed776e6ab0fb17cd5e26a7deb88
 
   points: [],
   lines: [[], []],
