@@ -1,0 +1,56 @@
+{	
+	"pavan":{
+		"personal":{
+			"address":{
+				"permanent":"S/O Srinivasa Gupta K S<br>
+							8th cross, 6th main, SS puram<br>
+							Tumkur 572102"
+			},
+			"email":"pavan@graphicana.co.in",
+			"website":"www.graphicana.co.in",
+		},
+		"work":{
+			"Sonata Software":{
+				"Title":"Lead UI Developer and Designer",
+				"Discription":"",
+				"Duration":"",
+				"Achievements":"",
+				"Recognitions":""
+			},
+			"Oracle":{
+				"Title":"Senior UI Developer",
+				"Discription":"",
+				"Duration":"",
+				"Achievements":"",
+				"Recognitions":""
+			},
+			"Trellisys":{
+				"Title":"UI Developer and Designer",
+				"Discription":"",
+				"Duration":"",
+				"Achievements":"",
+				"Recognitions":""
+			},
+			"Philips NXP":{
+				"Title":"UI and UX Designer",
+				"Discription":"",
+				"Duration":"",
+				"Achievements":"",
+				"Recognitions":""
+			},
+			"Arena Multimedia":{
+				"Type":"Web design and development Faculty",
+				"Discription":"",
+				"Duration":"",
+				"Achievements":"",
+				"Recognitions":""
+			},
+		},
+		"education":{
+
+		},
+		"interests":{
+
+		},
+	}
+}
