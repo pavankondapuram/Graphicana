@@ -123,6 +123,23 @@ a {
 }
 /*Resume END*/
 
+h2{
+	text-shadow:2px 2px 1px #fff;
+	font-weight:normal;
+	width:45%;
+	&.character{
+		font-family: 'Lobster', cursive;
+		font-size:1.5em;
+	}
+}
+
+h1 {
+	font-family: 'Lobster', cursive;
+	font-size:2.8em;
+	text-shadow:2px 2px 1px #fff;
+	font-weight:normal;
+}
+
 @import url('http://fonts.googleapis.com/css?family=Lobster');
 
 @font-face {
@@ -265,37 +282,25 @@ body > header nav ul#nav_ctrl {
 	
 div#timeline_container {
 	width:100%;
-	margin:120px auto;
+	margin:68px auto;
 	position:relative;
 }
 div#timeline_container header {
 	position:relative;
 	z-index:20;
 }
-div#timeline_container header figure {
-	width:500px;
-	height:500px;
-	border-radius:50%;
-	border:5px solid #FAF9F8;
+figure {
+	width:100%;
 	overflow:hidden;
 	display:block;
+	float: left;
 	left:0;
-	margin:0 0 0 50px;
-	box-shadow: 0 2px 2px #333;
+	margin:0;
+	img {
+		height:100%;
+	}     		
 }
-div#timeline_container header figure img {
-	height:100%;       		
-}
-div#timeline_container header h1 {
-	position:absolute;
-	top:20px;
-	right:80px;
-	font-family: 'Lobster', cursive;
-	font-size:2.8em;
-	text-shadow:2px 2px 1px #fff;
-	font-weight:normal;
-	width:45%;
-}
+
 div#timeline_container > ul {
 	position:relative;
 	width:4px;

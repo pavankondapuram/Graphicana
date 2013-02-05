@@ -13,7 +13,6 @@ $('nav ul#main_nav').on('click','li',function(){
 		$('div#timeline_container >ul> li').removeClass('active');
 		$($('div#timeline_container >ul> li.'+$type+'_event')[0]).addClass('active');
 	}
-			
 });
 
 $(document).on('scroll',function(){
