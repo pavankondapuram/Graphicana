@@ -1,4 +1,4 @@
-$('nav ul#main_nav').on('click','li',function(){
+$('nav ul#main_nav').on('click', 'li', function () {
 	var $type=$(this).attr('data-title');
 	$('nav ul#main_nav li').removeClass('active')
 	if ($type=='all') {
