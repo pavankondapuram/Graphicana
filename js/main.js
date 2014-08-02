@@ -129,7 +129,7 @@ function init_cookies() {
 
 jQuery( document ).ready(function( $ ) {	
 
-	jQuery('body').prepend(settings_block);
+	//jQuery('body').prepend(settings_block);
 	jQuery.cookies.set('header_position', 'fixed_header');
         
 	
