@@ -250,7 +250,7 @@ a {
 }
 
 #up {
-    background: url(http://vcard-html.royalmasters.net/images/up.png) no-repeat;
+    background: url(../images/up.png) no-repeat;
     width: 40px;
     height: 40px;
     position: absolute;
@@ -265,34 +265,34 @@ a {
 /* icons */
 
 .icon-user {
-    background-image: url(http://vcard-html.royalmasters.net/images/user.png);
+    background-image: url(../images/user.png);
 }
 
 .icon-resume {
-    background: url(http://vcard-html.royalmasters.net/images/vcard.png);
+    background: url(../images/vcard.png);
 }
 
 .icon-portfolio {
-    background: url(http://vcard-html.royalmasters.net/images/picture.png);
+    background: url(../images/picture.png);
 }
 
 .icon-contact {
-    background: url(http://vcard-html.royalmasters.net/images/mail.png);
+    background: url(../images/mail.png);
 }
 
 .icon-blog {
-    background: url(http://vcard-html.royalmasters.net/images/feather.png);
+    background: url(../images/feather.png);
 }
 
 .icon-cloud {
-    background: url(http://vcard-html.royalmasters.net/images/icon-cloud.png) no-repeat;
+    background: url(../images/icon-cloud.png) no-repeat;
     width: 12px;
     height: 9px;
     margin-right: 5px;
 }
 
 .icon-print {
-    background: url(http://vcard-html.royalmasters.net/images/icon-print.png) no-repeat;
+    background: url(../images/icon-print.png) no-repeat;
     width: 10px;
     height: 10px;
     margin-right: 8px;
@@ -344,7 +344,7 @@ a {
     text-indent: 100%;
     white-space: nowrap;
     overflow: hidden;
-    background-image: url(http://vcard-html.royalmasters.net/images/color_theme/icons-social.png);
+    background-image: url(../images/color_theme/icons-social.png);
     background-repeat: no-repeat;
 }
 
@@ -445,7 +445,7 @@ a {
 
 .item-title .arrow {
 
-    background-image: url(http://vcard-html.royalmasters.net/images/color_theme/arrows.png);
+    background-image: url(../images/color_theme/arrows.png);
 
     background-repeat: no-repeat;
 
@@ -477,7 +477,7 @@ a {
 }
 
 .item-border > span {
-    background: url("http://vcard-html.royalmasters.net/images/item-border-bg.png") repeat-y;
+    background: url("../images/item-border-bg.png") repeat-y;
     top: 71px;
     position: absolute;
     display: block;
@@ -491,7 +491,7 @@ a {
 }
 
 #profile-brd > span > span {
-    background: url("http://vcard-html.royalmasters.net/images/item-border-bg.png") repeat-y;
+    background: url("../images/item-border-bg.png") repeat-y;
     bottom: 117px;
     position: absolute;
     display: block;
@@ -561,7 +561,8 @@ a {
     padding: 0px 5px;
 
     margin-right: 12px;
-    width: 30%;
+    width: 35%;
+    text-align: right;
     word-wrap: break-word;
     vertical-align: top;
 }
@@ -620,7 +621,7 @@ a {
 
 .icon-plus {
 
-    background: url("http://vcard-html.royalmasters.net/images/icon-plus.png") no-repeat scroll 8px 7px;
+    background: url("../images/icon-plus.png") no-repeat scroll 8px 7px;
 
     width: 27px;
 
@@ -680,7 +681,7 @@ a {
 
 .skill-box h3 {
 
-    background-image: url(http://vcard-html.royalmasters.net/images/color_theme/icons-plus.png);
+    background-image: url(../images/color_theme/icons-plus.png);
 
     background-repeat: no-repeat;
 
@@ -886,7 +887,7 @@ a {
 
 .fancybox-fs {
 
-    background: url(http://vcard-html.royalmasters.net/images/close.png) no-repeat 0 0;
+    background: url(../images/close.png) no-repeat 0 0;
 
     cursor: pointer;
 
@@ -929,7 +930,7 @@ a {
 
 #contact .btn {
     margin-left: 0px;
-    background-image: url(http://vcard-html.royalmasters.net/images/icon-mail.png);
+    background-image: url(../images/icon-mail.png);
     background-repeat: no-repeat;
     background-position: 13px 10px;
     padding-left: 31px;
@@ -1015,7 +1016,7 @@ textarea.form-item {
 }
 
 .contact-info .icon {
-    background-image: url(http://vcard-html.royalmasters.net/images/color_theme/icons-contact.png);
+    background-image: url(../images/color_theme/icons-contact.png);
     background-repeat: no-repeat;
     display: block;
     float: left;
@@ -1030,19 +1031,13 @@ textarea.form-item {
 }
 
 .contact-info .text {
-
     font: 400 13px/13px 'Open Sans', sans-serif;
-
     display: inline-block;
-
     color: #7c7c7c;
-
     padding: 8px 0px;
-
-    letter-spacing: -1px;
-
+    letter-spacing: 0;
+    line-height: 18px;
     display: block;
-
     float: left;
 }
 
@@ -1082,7 +1077,7 @@ textarea.form-item {
 
 .blog-link .icon {
 
-    background: url(http://vcard-html.royalmasters.net/images/feather.png) center center no-repeat #434b51;
+    background: url(../images/feather.png) center center no-repeat #434b51;
 
     width: 43px;
 
@@ -1184,7 +1179,7 @@ textarea.form-item {
 
     font: 400 12px/23px 'Open Sans', sans-serif;
 
-    background: url(http://vcard-html.royalmasters.net/images/color_theme/icon-comments.png) no-repeat 9px 7px;
+    background: url(../images/color_theme/icon-comments.png) no-repeat 9px 7px;
 
     text-decoration: none;
 
@@ -1229,12 +1224,12 @@ textarea.form-item {
 
 .slidesjs-next {
     right: 11px;
-    background: url(http://vcard-html.royalmasters.net/images/slider-next.png) no-repeat;
+    background: url(../images/slider-next.png) no-repeat;
 }
 
 .slidesjs-previous {
     left: 11px;
-    background: url(http://vcard-html.royalmasters.net/images/slider-prev.png) no-repeat;
+    background: url(../images/slider-prev.png) no-repeat;
 }
 
 #pageination li {
@@ -1377,7 +1372,7 @@ textarea.form-item {
     border-color: #d0dde5;
     border-style: solid;
     border-width: 2px;
-    background-image: url(http://vcard-html.royalmasters.net/images/color_theme/icons-share.png);
+    background-image: url(../images/color_theme/icons-share.png);
     background-repeat: no-repeat;
     vertical-align: middle;
     -webkit-border-radius: 2px;
@@ -1418,7 +1413,7 @@ textarea.form-item {
 
 .post-comments .btn {
     margin-left: 0px;
-    background-image: url(http://vcard-html.royalmasters.net/images/icon-comment.png);
+    background-image: url(../images/icon-comment.png);
     background-repeat: no-repeat;
     background-position: 12px center;
     padding-left: 35px;
@@ -1495,7 +1490,7 @@ textarea.form-item {
 
 .btn-reply, .comment-reply-link, #cancel-comment-reply-link {
 
-    background: url(http://vcard-html.royalmasters.net/images/icon-reply.png) no-repeat 5px center #a2a9af;
+    background: url(../images/icon-reply.png) no-repeat 5px center #a2a9af;
 
     font: 600 10px/10px 'Open Sans', sans-serif;
 
@@ -1785,7 +1780,7 @@ textarea.form-item {
 }
 
 .mejs-controls .mejs-button button {
-    background: url("http://vcard-html.royalmasters.net/images/player/controls.png") no-repeat 0px 0px;
+    background: url("../images/player/controls.png") no-repeat 0px 0px;
 }
 
 .mejs-controls .mejs-button button:focus {
