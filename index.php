@@ -984,75 +984,57 @@
         <!--<div class="map"><div id="map-canvas"></div></div>-->
 
         <div class="clearfix">
-            <div class="form col500 fl-left">
-                <h3>Let's keep in touch</h3>
-                <?php
-// display form if user has not clicked submit
-if (!isset($_POST["submit"])) {
-  ?>
-                <!--<form method="post" action="<?php echo $_SERVER["PHP_SELF"];?>">
-                From: <input type="text" name="from"><br>
-                Subject: <input type="text" name="subject"><br>
-                Message: <textarea rows="10" cols="40" name="message"></textarea><br>
-                <input type="submit" name="submit" value="Submit Feedback">
-                </form>-->
 
-                <form action="<?php echo $_SERVER["PHP_SELF"];?>" method="get" id="contact_form">
-                <div class="clearfix">
-                    <div class="form-col form-marg small fl-left">
-                        <label>Name<span>*</span></label>
 
-                        <div class="field"><input class="form-item req" id="contact_name" name="from"
-                                                  type="text"></div>
+            <div id="contact-form">
+                <div id="fields">
+                    <h3>Let's keep in touch</h3>
+                    <?php
+                        // display form if user has not clicked submit
+                        if (!isset($_POST["submit"])) {
+                            ?>
+                    <form method="post" action="<?php echo $_SERVER["PHP_SELF"];?>">
+                    <div class="clearfix">
+                        <div class="form-col form-marg small fl-left">
+                            <label>Name<span>*</span></label>
+
+                            <div class="field"><input class="form-item req" id="contact_name" name="from"
+                                                      type="text"></div>
+                        </div>
+                        <div class="form-col small fl-left">
+                            <label>Email<span>*</span></label>
+
+                            <div class="field"><input class="form-item req" name="subject" id="email" type="email"></div>
+                        </div>
                     </div>
-                    <div class="form-col small fl-left">
-                        <label>Email<span>*</span></label>
-
-                        <div class="field"><input class="form-item req" name="subject" id="email" type="email"></div>
+                    <div class="form-col">
+                        <label>Message<span>*</span></label>
+                        <textarea id="comment" name="message" class="form-item req"></textarea>
                     </div>
-                </div>
-                <div class="form-col">
-                    <label>Message<span>*</span></label>
-                    <textarea id="comment" name="message" class="form-item req"></textarea>
-                </div>
-                <div class="form-btn">
-                    <div class="field"><input class="btn" name="submit" id="submit" value="send message"
-                                              type="submit"></div>
-                </div>
-                </form>
-
-
-                <?php
-} else {    // the user has submitted the form
-  // Check if the "from" input field is filled out
-  if (isset($_POST["from"])) {
-    $from = $_POST["from"]; // sender
-    $subject = $_POST["subject"];
-    $message = $_POST["message"];
-    // message lines should not exceed 70 characters (PHP rule), so wrap it
-    $message = wordwrap($message, 70);
-    // send mail
-    mail("pavan.sry@gmail.com",$subject,$message,"From: $from\n");
-    echo "Thank you for sending us feedback";
-  }
-}
-?>
-                <div id="messages">&nbsp;</div>
-                <script type="text/javascript">
-                    jQuery(document).ready(function () {
-                        jQuery('#contact_form').ajaxForm({
-                            beforeSubmit: function () {
-                                return init_validation('#contact_form');
-                            },
-                            success: function () {
-                                alert('Your message has been sent!');
-                                jQuery('#contact_form').resetForm();
+                    <div class="form-btn">
+                        <div class="field"><input class="btn" name="submit" id="submit" value="send message"
+                                                  type="submit"></div>
+                    </div>
+                    </form>
+                    <?php
+                                } else {    // the user has submitted the form
+                                // Check if the "from" input field is filled out
+                                if (isset($_POST["from"])) {
+                                $from = $_POST["from"]; // sender
+                                $subject = $_POST["subject"];
+                                $message = $_POST["message"];
+                                // message lines should not exceed 70 characters (PHP rule), so wrap it
+                                $message = wordwrap($message, 70);
+                                // send mail
+                                mail("pavan@graphicana.co.in",$subject,$message,"From: $from\n");
+                                echo "Thank you for contacting Me. I will get back to you soon";
                             }
-                        });
-                    });
-                </script>
-            </div>
+                        }
+                    ?>
 
+                </div>
+                <div id="note"></div>
+            </div>
             <div class="col260 fl-right">
                 <h3>Contact info</h3>
                 <ul class="contact-info">
