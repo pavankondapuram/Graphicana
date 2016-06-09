@@ -2261,6 +2261,7 @@ img[height] {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  top: 0;
 }
 
 .c-social-buttons li {
@@ -2414,3 +2415,9 @@ img[height] {
 }
 
 /*# sourceMappingURL=main.css.map */
+
+.stars {
+    margin: 20px 0;
+    font-size: 24px;
+    color: #d17581;
+}
