@@ -1,64 +1,1804 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <title>Graphicana</title>
-  <link href="styles/styles.less" rel="stylesheet/less" type="text/css" />
-</head>
-<body>
-  <div class="logoM"></div>
-  <!--div class="rays"></div-->
-  <div class="logoShadow"></div>
-  <div class="buildings"></div>
-  <div class="trigger" onclick=window.open("https://plus.google.com/photos/111387046610137204544/albums/5278424988798878257")>works</div>
-  <!-- <canvas id="stripes"> -->
-  <!-- <div class="works"><a id="example2" href="images/works/412739130_v.jpg"><img src="images/tumbnails/412739130_v.jpg" /></a>
-    <a id="example2" href="images/works/716241017_v.jpg"><img src="images/tumbnails/716241017_v.jpg" /></a>
-    <a id="example2" href="images/works/trellisys.jpg"><img src="images/tumbnails/trellisys.jpg" /></a>
-    <a id="example2" href="images/works/863772901_v.jpg"><img src="images/tumbnails/863772901_v.jpg" /></a>
-    <a id="example2" href="images/works/zoo.jpg"><img src="images/tumbnails/zoo.jpg" /></a>
-    <a id="example2" href="images/works/zoomin.jpg"><img src="images/tumbnails/zoomin.jpg" /></a>
-    <a id="example2" href="images/works/day1.jpg"><img src="images/tumbnails/day1.jpg" /></a>
-    <a id="example2" href="images/works/Recruitment fair-Final.jpg"><img src="images/tumbnails/Recruitment fair-Final.jpg" /></a>
-    <a id="example2" href="images/works/2.jpg"><img src="images/tumbnails/2.jpg" /></a>
-    <a id="example2" href="images/works/glowWorm.jpg"><img src="images/tumbnails/glowWorm.jpg" /></a>
-    <a id="example2" href="images/works/464613048_v.jpg"><img src="images/tumbnails/464613048_v.jpg" /></a>
-    <a id="example2" href="images/works/584197320_v.jpg"><img src="images/tumbnails/584197320_v.jpg" /></a>
-    <a id="example2" href="images/works/723468941_v.jpg"><img src="images/tumbnails/723468941_v.jpg" /></a>
-    <a id="example2" href="images/works/897166519_v.jpg"><img src="images/tumbnails/897166519_v.jpg" /></a>
-    <a id="example2" href="images/works/4I.jpg"><img src="images/tumbnails/4I.jpg" /></a>
-    <a id="example2" href="images/works/310597511_v.jpg"><img src="images/tumbnails/310597511_v.jpg" /></a>
-    <a id="example2" href="images/works/2I.jpg"><img src="images/tumbnails/2I.jpg" /></a>
-    <a id="example2" href="images/works/word cube.jpg"><img src="images/tumbnails/word cube.jpg" /></a>
-    <a id="example2" href="images/works/1I.jpg"><img src="images/tumbnails/1I.jpg" /></a>
-    <a id="example2" href="images/works/1KK.jpg"><img src="images/tumbnails/1KK.jpg" /></a>
-    <a id="example2" href="images/works/2KK.jpg"><img src="images/tumbnails/2KK.jpg" /></a>
-    <a id="example2" href="images/works/3I.jpg"><img src="images/tumbnails/3I.jpg" /></a>
-    <a id="example2" href="images/works/4.jpg"><img src="images/tumbnails/4.jpg" /></a>
-    <a id="example2" href="images/works/4KK.jpg"><img src="images/tumbnails/4KK.jpg" /></a>
-    <a id="example2" href="images/works/284873712_v.jpg"><img src="images/tumbnails/284873712_v.jpg" /></a>
-    <a id="example2" href="images/works/Bombay-Challenge.jpg"><img src="images/tumbnails/Bombay-Challenge.jpg" /></a>
-    <a id="example2" href="images/works/brainInnovation.jpg"><img src="images/tumbnails/brainInnovation.jpg" /></a>
-    <a id="example2" href="images/works/caring_A0.jpg"><img src="images/tumbnails/caring_A0.jpg" /></a>
-    <a id="example2" href="images/works/Collaborate_A0.jpg"><img src="images/tumbnails/Collaborate_A0.jpg" /></a>
-    <a id="example2" href="images/works/curry.jpg"><img src="images/tumbnails/curry.jpg" /></a>
-    <a id="example2" href="images/works/day2.jpg"><img src="images/tumbnails/day2.jpg" /></a>
-    <a id="example2" href="images/works/day3.jpg"><img src="images/tumbnails/day3.jpg" /></a>
-    <a id="example2" href="images/works/996435567_v.jpg"><img src="images/tumbnails/996435567_v.jpg" /></a>
-    <a id="example2" href="images/works/Innovation_A1.jpg"><img src="images/tumbnails/Innovation_A1.jpg" /></a>
-    <a id="example2" href="images/works/Internal mailer about customer.jpg"><img src="images/tumbnails/Internal mailer about customer.jpg" /></a>
-    <a id="example2" href="images/works/Leadership_A1.jpg"><img src="images/tumbnails/Leadership_A1.jpg" /></a>
-    <a id="example2" href="images/works/Mailer mock Template.jpg"><img src="images/tumbnails/Mailer mock Template.jpg" /></a>
-    <a id="example2" href="images/works/Mailer mock.jpg"><img src="images/tumbnails/Mailer mock.jpg" /></a>
-    <a id="example2" href="images/works/question_mock.jpg"><img src="images/tumbnails/question_mock.jpg" /></a>
-    <a id="example2" href="images/works/Saudi-Mailer.jpg"><img src="images/tumbnails/Saudi-Mailer.jpg" /></a>
-    <a id="example2" href="images/works/Success_A0.jpg"><img src="images/tumbnails/Success_A0.jpg" /></a>
-    <a id="example2" href="images/works/404838648_v.jpg"><img src="images/tumbnails/404838648_v.jpg" /></a></div> -->
+<!doctype html>
 
-  <!--<script src="scripts/stripes.js"></script>-->
-  <script src="scripts/less.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-  <script src="http://ajax.googleapis.com/ajax/libs/dojo/1.8.0/dojo/dojo.js"></script>
-  <script src="scripts/all.js" type="text/javascript"></script>
+<html lang="en">
+
+
+<!-- Mirrored from htmldemos.ruventhemes.com/desmond-resume/light/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 08 Jun 2016 04:43:46 GMT -->
+<head>
+
+    <title>Pavan Kondapuram</title>
+
+    <meta name="description" content="">
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Google Font: Lato -->
+    <link
+    href='https://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic&amp;subset=latin,latin-ext'
+    rel='stylesheet' type='text/css'>
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.min.css">
+
+    <!-- Nivo Lightbox-->
+    <link rel="stylesheet" href="assets/plugins/nivo-lightbox/nivo-lightbox.css"/>
+    <link rel="stylesheet" href="assets/plugins/nivo-lightbox/themes/default/default.css"/>
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <!-- Themes -->
+    <link rel="stylesheet" href="assets/css/themes.light.css">
+    <!--<link rel="stylesheet" href="assets/css/themes.dark.css">-->
+
+    <!-- Custom CSS -->
+    <!--<link rel="stylesheet" href="assets/css/custom.css">-->
+
+    <!-- jQuery -->
+    <script src="assets/js/jquery.min.js"></script>
+
+    <!-- dense.js (Retina plugin) -->
+    <script src="assets/js/dense.js"></script>
+
+    <!-- Nivo Lightbox -->
+    <script src="assets/plugins/nivo-lightbox/nivo-lightbox.min.js"></script>
+
+    <!-- ScrollReveal -->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!-- Main JS -->
+    <script src="assets/js/main.js"></script>
+
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-55035849-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+
+    <!-- Google Tag Manager -->
+    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-K2TKSR"
+                      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-K2TKSR');</script>
+    <!-- End Google Tag Manager -->
+
+</head>
+
+<body>
+
+<div class="c-preloader  js-preloader">
+    <div class="c-preloader__spinner  t-preloader__spinner"></div>
+</div>
+
+<div class="c-main-container  js-main-container">
+
+
+    <!-- ############################ -->
+    <!-- ########## HEADER ########## -->
+    <!-- ############################ -->
+
+    <section class="c-section c-section--header  t-section  t-section--header">
+        <div class="c-header">
+
+            <div class="c-section__header-bg  t-section__header"></div>
+            <div class="c-section__content-bg  t-section__content"></div>
+
+            <div class="o-container">
+                <div class="c-section__container">
+
+                    <header class="c-section__header  c-header__header  t-section__header">
+                        <div class="c-header__inner-header">
+
+                            <div class="c-header__avatar">
+                                <div class="a-header  c-avatar">
+                                    <img class="c-avatar__img" src="assets/images/header/avatar.jpg" alt="">
+                                </div>
+                                <!-- /c-avatar -->
+                            </div>
+                            <!-- /c-header-avatar -->
+
+                        </div>
+                        <!-- /c-header__inner-header -->
+                    </header>
+                    <!-- /c-section__header -->
+
+                    <div class="c-section__content  c-header__content  t-section__content">
+                        <div class="c-header__inner-content">
+
+                            <div class="c-header__top">
+
+                                <div class="c-header__brand">
+
+                                    <div class="c-brand">
+                                        <hgroup>
+                                            <h1 class="c-brand__title  t-title">
+                                                        <span class="c-brand__sizer">
+                                                            <span
+                                                            class="a-header  c-brand__second-word  t-title__second-word">
+                                                                Pavan
+                                                            </span>
+                                                            <span
+                                                            class="a-header  c-brand__first-word  t-title__first-word">
+                                                                Kondapuram
+                                                            </span>
+                                                        </span>
+                                            </h1>
+
+                                            <h2 class="a-header  c-brand__sub-title  t-sub-title">
+                                                        <span class="c-brand__sizer">
+User Experience, User Interface & Frontend expert with 9+ years of experience</span>
+                                            </h2>
+                                        </hgroup>
+                                    </div>
+                                    <!-- /c-brand -->
+
+                                </div>
+                                <!-- /c-header__brand -->
+
+                                <ul class="c-header__social-buttons  c-social-buttons">
+                                    <li class="a-header">
+                                        <a href="https://www.facebook.com/pavan.sry/" target="_blank"
+                                           class="c-social-button  t-social-button">
+                                            <i class="fa  fa-lg  fa-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li class="a-header">
+                                        <a href="https://www.linkedin.com/in/graphicana" target="_blank"
+                                           class="c-social-button  t-social-button">
+                                            <i class="fa  fa-lg  fa-linkedin"></i>
+                                        </a>
+                                    </li>
+                                    <li class="a-header">
+                                        <a href="https://twitter.com/pavan_sry" target="_blank"
+                                           class="c-social-button  t-social-button">
+                                            <i class="fa  fa-lg  fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <!-- /c-header__social-buttons -->
+
+                            </div>
+                            <!-- /c-header__top -->
+
+                            <div class="c-header__contact">
+
+                                <hr class="a-header  c-header__contact-divider"/>
+
+                                <div class="o-grid">
+
+                                    <div class="o-grid__col-md-3  o-grid__col-sm-6">
+                                        <div class="a-header  o-content">
+                                            <div class="o-content__body">
+                                                <h4>Location</h4>
+                                                <address>
+                                                    Bangalore, India
+                                                </address>
+                                            </div>
+                                        </div>
+                                        <!-- /o-content -->
+                                    </div>
+                                    <!-- /o-grid__col -->
+
+                                    <div class="o-grid__col-md-3  o-grid__col-sm-6">
+                                        <div class="a-header  o-content">
+                                            <div class="o-content__body">
+                                                <h4>Phone</h4>
+
+                                                <p>
+                                                    +91 9886 312 325
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <!-- /o-content -->
+                                    </div>
+                                    <!-- /o-grid__col -->
+
+                                    <div class="o-grid__col-md-3  o-grid__col-sm-6">
+                                        <div class="a-header  o-content">
+                                            <div class="o-content__body">
+                                                <a href="http://graphicana.co.in" target="_blank"
+                                                   class="t-link-container">
+                                                    <h4>Web</h4>
+
+                                                    <p>
+                                                        <span class="t-link-container__item--blended">
+                                                            www.graphicana.co.in
+                                                        </span>
+                                                    </p>
+                                                </a><!-- /o-link-container -->
+                                            </div>
+                                        </div>
+                                        <!-- /o-content -->
+                                    </div>
+                                    <!-- /o-grid__col -->
+
+                                    <div class="o-grid__col-md-3  o-grid__col-sm-6">
+                                        <div class="a-header  o-content">
+                                            <div class="o-content__body">
+                                                <a href="mailto:pavan@graphicana.co.in" target="_top"
+                                                   class="t-link-container">
+                                                    <h4>Email</h4>
+
+                                                    <p>
+                                                        <span class="t-link-container__item--blended">
+                                                            pavan@graphicana.co.in
+                                                        </span>
+                                                    </p>
+                                                </a><!-- /o-link-container -->
+                                            </div>
+                                        </div>
+                                        <!-- /o-content -->
+                                    </div>
+                                    <!-- /o-grid__col -->
+
+                                </div>
+                                <!-- /o-grid -->
+                            </div>
+                            <!-- /c-header__contact -->
+
+                        </div>
+                        <!-- /c-header__inner-content -->
+                    </div>
+                    <!-- /c-section__content -->
+
+                </div>
+                <!-- /c-section__container -->
+
+            </div>
+            <!-- /o-container -->
+
+        </div>
+        <!-- /c-header -->
+    </section>
+    <!-- /c-section -->
+
+
+    <!-- ########################### -->
+    <!-- ########## INTRO ########## -->
+    <!-- ########################### -->
+
+    <section class="c-section  t-section  ">
+
+        <div class="c-section__header-bg  t-section__header"></div>
+        <div class="c-section__content-bg  t-section__content"></div>
+
+        <div class="o-container">
+            <div class="c-section__container">
+
+                <header class="c-section__header  t-section__header">
+                    <div class="o-content">
+                        <h2 class="c-section__heading">
+                            Intro
+                        </h2>
+
+                        <div class="o-content__body  c-section__description">
+                            A little about me.
+                        </div>
+                    </div>
+                </header>
+                <!-- /c-section__header -->
+
+                <div class="c-section__content  t-section__content  ">
+
+                    <div class="o-content">
+                        <div class="c-intro">
+                            <div class="o-content__body">
+                                <p>I am a graduate in fine arts (applied arts), diploma holder in graphic designing and
+                                    learnt to code frontend languages like HTML, CSS and Javascript. This makes me a
+                                    successful combinator of designing and development. Which is most important for
+                                    today's aesthetics and javascript dominated web and mobile applications world.</p>
+
+                                <p>I am working since 9+ years in User Expereince & User Interface arena and have served
+                                    big corporates like Oracle, Philips, TUI, Wipro, Singapore Airlines and many more,
+                                    as well as few start ups.</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- /c-section__content -->
+
+            </div>
+            <!-- /c-section__container -->
+        </div>
+        <!-- /o-container -->
+
+    </section>
+    <!-- /c-section -->
+
+
+    <!-- ############################ -->
+    <!-- ########## SKILLS ########## -->
+    <!-- ############################ -->
+
+    <section class="c-section  t-section  ">
+
+        <div class="c-section__header-bg  t-section__header"></div>
+        <div class="c-section__content-bg  t-section__content"></div>
+
+        <div class="o-container">
+            <div class="c-section__container">
+
+                <header class="c-section__header  t-section__header">
+                    <div class="o-content">
+                        <h2 class="c-section__heading">
+                            Skills
+                        </h2>
+
+                    </div>
+                </header>
+                <!-- /c-section__header -->
+
+                <div class="c-section__content  t-section__content  ">
+
+                    <div class="o-grid">
+
+                        <div class="o-grid__col-sm-4">
+                            <div class="o-content__body  c-section__description skills-head">Development</div>
+
+                            <div class="o-media  o-media--block  o-content">
+                                <div class="o-media__figure">
+                                    <div class="c-number  t-primary-color">
+                                        01
+                                    </div>
+                                </div>
+                                <div class="o-media__body  o-content__body">
+                                    <h3>HTML5</h3>
+
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="90"
+                                             aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                                            <span class="sr-only">60% Complete</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /o-media o-content -->
+
+                            <div class="o-media  o-media--block  o-content">
+                                <div class="o-media__figure">
+                                    <div class="c-number  t-primary-color">
+                                        02
+                                    </div>
+                                </div>
+                                <div class="o-media__body  o-content__body">
+                                    <h3>CSS3</h3>
+
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="90"
+                                             aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                                            <span class="sr-only">60% Complete</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /o-media o-content -->
+
+                            <div class="o-media  o-media--block  o-content">
+                                <div class="o-media__figure">
+                                    <div class="c-number  t-primary-color">
+                                        03
+                                    </div>
+                                </div>
+                                <div class="o-media__body  o-content__body">
+                                    <h3>LESS</h3>
+
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="90"
+                                             aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                                            <span class="sr-only">60% Complete</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /o-media o-content -->
+
+                            <div class="o-media  o-media--block  o-content">
+                                <div class="o-media__figure">
+                                    <div class="c-number  t-primary-color">
+                                        04
+                                    </div>
+                                </div>
+                                <div class="o-media__body  o-content__body">
+                                    <h3>SASS</h3>
+
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="90"
+                                             aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                                            <span class="sr-only">60% Complete</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /o-media o-content -->
+
+                            <div class="o-media  o-media--block  o-content">
+                                <div class="o-media__figure">
+                                    <div class="c-number  t-primary-color">
+                                        05
+                                    </div>
+                                </div>
+                                <div class="o-media__body  o-content__body">
+                                    <h3>Bootstrap</h3>
+
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="90"
+                                             aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                                            <span class="sr-only">60% Complete</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /o-media o-content -->
+
+                            <div class="o-media  o-media--block  o-content">
+                                <div class="o-media__figure">
+                                    <div class="c-number  t-primary-color">
+                                        06
+                                    </div>
+                                </div>
+                                <div class="o-media__body  o-content__body">
+                                    <h3>JavaScript</h3>
+
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="90"
+                                             aria-valuemin="0" aria-valuemax="100" style="width: 50%;">
+                                            <span class="sr-only">60% Complete</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /o-media o-content -->
+
+                            <div class="o-media  o-media--block  o-content">
+                                <div class="o-media__figure">
+                                    <div class="c-number  t-primary-color">
+                                        07
+                                    </div>
+                                </div>
+                                <div class="o-media__body  o-content__body">
+                                    <h3>jQuery</h3>
+
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="90"
+                                             aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                                            <span class="sr-only">60% Complete</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /o-media o-content -->
+
+                            <div class="o-media  o-media--block  o-content">
+                                <div class="o-media__figure">
+                                    <div class="c-number  t-primary-color">
+                                        08
+                                    </div>
+                                </div>
+                                <div class="o-media__body  o-content__body">
+                                    <h3>AngularJS</h3>
+
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="90"
+                                             aria-valuemin="0" aria-valuemax="100" style="width: 40%;">
+                                            <span class="sr-only">60% Complete</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /o-media o-content -->
+
+                            <div class="o-media  o-media--block  o-content">
+                                <div class="o-media__figure">
+                                    <div class="c-number  t-primary-color">
+                                        09
+                                    </div>
+                                </div>
+                                <div class="o-media__body  o-content__body">
+                                    <h3>JSON</h3>
+
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="90"
+                                             aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                                            <span class="sr-only">60% Complete</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /o-media o-content -->
+
+                            <div class="o-media  o-media--block  o-content">
+                                <div class="o-media__figure">
+                                    <div class="c-number  t-primary-color">
+                                        10
+                                    </div>
+                                </div>
+                                <div class="o-media__body  o-content__body">
+                                    <h3>AJAX</h3>
+
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="90"
+                                             aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                                            <span class="sr-only">60% Complete</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /o-media o-content -->
+
+                            <div class="o-media  o-media--block  o-content">
+                                <div class="o-media__figure">
+                                    <div class="c-number  t-primary-color">
+                                        11
+                                    </div>
+                                </div>
+                                <div class="o-media__body  o-content__body">
+                                    <h3>Responsive Development</h3>
+
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="90"
+                                             aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                                            <span class="sr-only">60% Complete</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /o-media o-content -->
+
+                            <div class="o-media  o-media--block  o-content">
+                                <div class="o-media__figure">
+                                    <div class="c-number  t-primary-color">
+                                        12
+                                    </div>
+                                </div>
+                                <div class="o-media__body  o-content__body">
+                                    <h3>Googel maps & other APIs</h3>
+
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="90"
+                                             aria-valuemin="0" aria-valuemax="100" style="width: 40%;">
+                                            <span class="sr-only">60% Complete</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /o-media o-content -->
+
+                            <div class="o-media  o-media--block  o-content">
+                                <div class="o-media__figure">
+                                    <div class="c-number  t-primary-color">
+                                        13
+                                    </div>
+                                </div>
+                                <div class="o-media__body  o-content__body">
+                                    <h3>Oracle ADF / MAF</h3>
+
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="90"
+                                             aria-valuemin="0" aria-valuemax="100" style="width: 50%;">
+                                            <span class="sr-only">60% Complete</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /o-media o-content -->
+                        </div>
+                        <!-- /o-grid__col -->
+
+                        <div class="o-grid__col-sm-4">
+                            <div class="o-content__body  c-section__description skills-head">Tools
+                            </div>
+
+                            <div class="o-media  o-media--block  o-content">
+                                <div class="o-media__figure">
+                                    <div class="c-number  t-primary-color">
+                                        01
+                                    </div>
+                                </div>
+                                <div class="o-media__body  o-content__body">
+                                    <h3>Jetbrains </h3>
+
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="90"
+                                             aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                                            <span class="sr-only">60% Complete</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /o-media o-content -->
+
+                            <div class="o-media  o-media--block  o-content">
+                                <div class="o-media__figure">
+                                    <div class="c-number  t-primary-color">
+                                        02
+                                    </div>
+                                </div>
+                                <div class="o-media__body  o-content__body">
+                                    <h3>Sublime Text</h3>
+
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="90"
+                                             aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                                            <span class="sr-only">60% Complete</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /o-media o-content -->
+
+                            <div class="o-media  o-media--block  o-content">
+                                <div class="o-media__figure">
+                                    <div class="c-number  t-primary-color">
+                                        03
+                                    </div>
+                                </div>
+                                <div class="o-media__body  o-content__body">
+                                    <h3>MS Visio</h3>
+
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="90"
+                                             aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                                            <span class="sr-only">60% Complete</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /o-media o-content -->
+
+                            <div class="o-media  o-media--block  o-content">
+                                <div class="o-media__figure">
+                                    <div class="c-number  t-primary-color">
+                                        04
+                                    </div>
+                                </div>
+                                <div class="o-media__body  o-content__body">
+                                    <h3>Cacoo</h3>
+
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="90"
+                                             aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                                            <span class="sr-only">60% Complete</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /o-media o-content -->
+
+                            <div class="o-media  o-media--block  o-content">
+                                <div class="o-media__figure">
+                                    <div class="c-number  t-primary-color">
+                                        05
+                                    </div>
+                                </div>
+                                <div class="o-media__body  o-content__body">
+                                    <h3>Xmind</h3>
+
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="90"
+                                             aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                                            <span class="sr-only">60% Complete</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /o-media o-content -->
+
+                            <div class="o-media  o-media--block  o-content">
+                                <div class="o-media__figure">
+                                    <div class="c-number  t-primary-color">
+                                        06
+                                    </div>
+                                </div>
+                                <div class="o-media__body  o-content__body">
+                                    <h3>Adobe Photoshop</h3>
+
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="90"
+                                             aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                                            <span class="sr-only">60% Complete</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /o-media o-content -->
+
+                            <div class="o-media  o-media--block  o-content">
+                                <div class="o-media__figure">
+                                    <div class="c-number  t-primary-color">
+                                        07
+                                    </div>
+                                </div>
+                                <div class="o-media__body  o-content__body">
+                                    <h3>Adobe Illustrator</h3>
+
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="90"
+                                             aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                                            <span class="sr-only">60% Complete</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /o-media o-content -->
+
+                            <div class="o-media  o-media--block  o-content">
+                                <div class="o-media__figure">
+                                    <div class="c-number  t-primary-color">
+                                        08
+                                    </div>
+                                </div>
+                                <div class="o-media__body  o-content__body">
+                                    <h3>Adobe Fireworks</h3>
+
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="90"
+                                             aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                                            <span class="sr-only">60% Complete</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /o-media o-content -->
+
+                            <div class="o-media  o-media--block  o-content">
+                                <div class="o-media__figure">
+                                    <div class="c-number  t-primary-color">
+                                        09
+                                    </div>
+                                </div>
+                                <div class="o-media__body  o-content__body">
+                                    <h3>Adobe Dreamweaver</h3>
+
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="90"
+                                             aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                                            <span class="sr-only">60% Complete</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /o-media o-content -->
+                        </div>
+                        <!-- /o-grid__col -->
+
+                        <div class="o-grid__col-sm-4">
+                            <div class="o-content__body  c-section__description skills-head">Design</div>
+
+                            <div class="o-media  o-media--block  o-content">
+                                <div class="o-media__figure">
+                                    <div class="c-number  t-primary-color">
+                                        01
+                                    </div>
+                                </div>
+                                <div class="o-media__body  o-content__body">
+                                    <h3>Requirement gathering </h3>
+
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="90"
+                                             aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                                            <span class="sr-only">60% Complete</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /o-media o-content -->
+
+                            <div class="o-media  o-media--block  o-content">
+                                <div class="o-media__figure">
+                                    <div class="c-number  t-primary-color">
+                                        02
+                                    </div>
+                                </div>
+                                <div class="o-media__body  o-content__body">
+                                    <h3>User research and survey </h3>
+
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="90"
+                                             aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                                            <span class="sr-only">60% Complete</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /o-media o-content -->
+
+                            <div class="o-media  o-media--block  o-content">
+                                <div class="o-media__figure">
+                                    <div class="c-number  t-primary-color">
+                                        03
+                                    </div>
+                                </div>
+                                <div class="o-media__body  o-content__body">
+                                    <h3>Navigation / Data Flows Architecture</h3>
+
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="90"
+                                             aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                                            <span class="sr-only">60% Complete</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /o-media o-content -->
+
+                            <div class="o-media  o-media--block  o-content">
+                                <div class="o-media__figure">
+                                    <div class="c-number  t-primary-color">
+                                        04
+                                    </div>
+                                </div>
+                                <div class="o-media__body  o-content__body">
+                                    <h3>Usability testing </h3>
+
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="90"
+                                             aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                                            <span class="sr-only">60% Complete</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /o-media o-content -->
+
+                            <div class="o-media  o-media--block  o-content">
+                                <div class="o-media__figure">
+                                    <div class="c-number  t-primary-color">
+                                        05
+                                    </div>
+                                </div>
+                                <div class="o-media__body  o-content__body">
+                                    <h3>Wireframes </h3>
+
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="90"
+                                             aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                                            <span class="sr-only">60% Complete</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /o-media o-content -->
+
+                            <div class="o-media  o-media--block  o-content">
+                                <div class="o-media__figure">
+                                    <div class="c-number  t-primary-color">
+                                        06
+                                    </div>
+                                </div>
+                                <div class="o-media__body  o-content__body">
+                                    <h3>Photoshop mock-ups</h3>
+
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="90"
+                                             aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                                            <span class="sr-only">60% Complete</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /o-media o-content -->
+
+                            <div class="o-media  o-media--block  o-content">
+                                <div class="o-media__figure">
+                                    <div class="c-number  t-primary-color">
+                                        07
+                                    </div>
+                                </div>
+                                <div class="o-media__body  o-content__body">
+                                    <h3>Rapid prototyping</h3>
+
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="90"
+                                             aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                                            <span class="sr-only">60% Complete</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /o-media o-content -->
+
+                            <div class="o-media  o-media--block  o-content">
+                                <div class="o-media__figure">
+                                    <div class="c-number  t-primary-color">
+                                        08
+                                    </div>
+                                </div>
+                                <div class="o-media__body  o-content__body">
+                                    <h3>User interviews</h3>
+
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" aria-valuenow="90"
+                                             aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                                            <span class="sr-only">60% Complete</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /o-media o-content -->
+                        </div>
+                        <!-- /o-grid__col -->
+
+                    </div>
+                    <!-- /o-grid -->
+
+                </div>
+                <!-- /c-section__content -->
+
+            </div>
+            <!-- /c-section__container -->
+        </div>
+        <!-- /o-container -->
+
+    </section>
+    <!-- /c-section -->
+
+
+    <!-- ################################ -->
+    <!-- ########## EXPERIENCE ########## -->
+    <!-- ################################ -->
+
+    <section class="c-section  t-section  ">
+
+        <div class="c-section__header-bg  t-section__header"></div>
+        <div class="c-section__content-bg  t-section__content"></div>
+
+        <div class="o-container">
+            <div class="c-section__container">
+
+                <header class="c-section__header  t-section__header">
+                    <div class="o-content">
+                        <h2 class="c-section__heading">
+                            Experience
+                        </h2>
+
+                        <div class="o-content__body  c-section__description">
+                            Yes. I&#39;ve been around.
+                        </div>
+                    </div>
+                </header>
+                <!-- /c-section__header -->
+
+                <div class="c-section__content  t-section__content  u-pb-0">
+
+                    <div class="a-experience-timeline  c-timeline  t-border-color">
+
+                        <div class="c-timeline__item">
+                            <div class="c-timeline__point  t-timeline__point  t-primary-bg"></div>
+                            <div class="o-content">
+                                <div class="o-grid">
+                                    <div class="o-grid__col-md-5">
+                                        <div class="c-work__timeframe">
+                                            August 2015 &ndash; Present
+                                        </div>
+                                        <h3 class="c-work__heading">
+                                            Oracle
+                                        </h3>
+                                        <h4 class="c-work__title">
+                                            Senior Technical Consultant
+                                        </h4>
+
+                                        <div class="c-work__location">
+                                            Bangalore, India
+                                        </div>
+                                    </div>
+                                    <div class="o-grid__col-md-7">
+                                        <p>I support field sales consults of Oracle EMEA and APAC with necessary
+                                            designs, rapid prototypes and user interface guidance to close their deals.
+                                            I am also involved in evaluating requests from field sales consultants to
+                                            build prototypes and guiding my team as well as field sales consultants with
+                                            any user interface and user experience related challenges, questions.</p>
+
+                                        <p>Mostly I am involved in hybrid mobile application user interface development
+                                            using Oracle MAF and rarely in web application user interface development
+                                            using various Oracle tools based on ADF.</p>
+                                    </div>
+                                </div>
+                                <!-- /o-grid -->
+                            </div>
+                            <!-- /o-content -->
+                        </div>
+                        <!-- /c-timeline__item -->
+
+                        <div class="c-timeline__item">
+                            <div class="c-timeline__point  t-timeline__point  t-primary-bg"></div>
+                            <div class="o-content">
+                                <div class="o-grid">
+                                    <div class="o-grid__col-md-5">
+                                        <div class="c-work__timeframe">
+                                            October 2014 &ndash; July 2015
+                                        </div>
+                                        <h3 class="c-work__heading">
+                                            Freelance UI developer and UX designer
+                                        </h3>
+                                        <h4 class="c-work__title">
+                                            Freelance Consultant
+                                        </h4>
+
+                                        <div class="c-work__location">
+                                        </div>
+                                    </div>
+                                    <div class="o-grid__col-md-7">
+                                        <p>Working with several groups of freelancers and few companies as UI and UX
+                                            advisor.</p>
+
+                                        <p>My job is to advice and develop responsive and single page applications
+                                            mostly developed on PHP, Python, using LESS, SASS, Bootstrap or plain CSS3
+                                            depending on the requirements. JavaScript frameworks mostly used are jQuery,
+                                            AngularJS, Bootstrap, handlebars js, jQuery mobile and more</p>
+                                    </div>
+                                </div>
+                                <!-- /o-grid -->
+                            </div>
+                            <!-- /o-content -->
+                        </div>
+                        <!-- /c-timeline__item -->
+
+                        <div class="c-timeline__item">
+                            <div class="c-timeline__point  t-timeline__point  t-primary-bg"></div>
+                            <div class="o-content">
+                                <div class="o-grid">
+                                    <div class="o-grid__col-md-5">
+                                        <div class="c-work__timeframe">
+                                            June 2014 &ndash; September 2014
+                                        </div>
+                                        <h3 class="c-work__heading">
+                                            Wipro <span class="c-work__location">4 months contract through Magna</span>
+                                        </h3>
+                                        <h4 class="c-work__title">
+                                            Lead UI developer and consulting UX lead
+                                        </h4>
+
+                                        <div class="c-work__location">
+                                            Bangalore, India
+                                        </div>
+                                    </div>
+                                    <div class="o-grid__col-md-7">
+                                        <p>In 4 months contract, my role was to lead the UI team which had stalled at a
+                                            critical stage of the project. I had to guide developers and do minor tweaks
+                                            to architecture to bring back performance and ensure all required customer
+                                            standards are met.</p>
+
+                                        <p>Providing corporate training on User experience assessment, Market analysis,
+                                            JavaScript, jQuery, jQuery mobile, HTML5, CSS3, LESS and Team building.</p>
+                                    </div>
+                                </div>
+                                <!-- /o-grid -->
+                            </div>
+                            <!-- /o-content -->
+                        </div>
+                        <!-- /c-timeline__item -->
+
+
+                        <div class="c-timeline__item">
+                            <div class="c-timeline__point  t-timeline__point  t-primary-bg"></div>
+                            <div class="o-content">
+                                <div class="o-grid">
+                                    <div class="o-grid__col-md-5">
+                                        <div class="c-work__timeframe">
+                                            July 2013 &ndash; May 2014
+                                        </div>
+                                        <h3 class="c-work__heading">Freelance UX designer and UI developer </h3>
+                                        <h4 class="c-work__title">
+                                            Freelance Consultant
+                                        </h4>
+
+                                        <div class="c-work__location">
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /o-grid -->
+                            </div>
+                            <!-- /o-content -->
+                        </div>
+                        <!-- /c-timeline__item -->
+
+                        <div class="c-timeline__item">
+                            <div class="c-timeline__point  t-timeline__point  t-primary-bg"></div>
+                            <div class="o-content">
+                                <div class="o-grid">
+                                    <div class="o-grid__col-md-5">
+                                        <div class="c-work__timeframe">
+                                            Feburary 2012 &ndash; June 2013
+                                        </div>
+                                        <h3 class="c-work__heading">
+                                            TUI UK <span class="c-work__location">Through Sonata Software</span>
+                                        </h3>
+                                        <h4 class="c-work__title">
+                                            User Interface developer
+                                        </h4>
+
+                                        <div class="c-work__location">
+                                            Bangalore, India &amp; London, United Kingdom
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /o-grid -->
+                            </div>
+                            <!-- /o-content -->
+                        </div>
+                        <!-- /c-timeline__item -->
+
+                        <div class="c-timeline__item">
+                            <div class="c-timeline__point  t-timeline__point  t-primary-bg"></div>
+                            <div class="o-content">
+                                <div class="o-grid">
+                                    <div class="o-grid__col-md-5">
+                                        <div class="c-work__timeframe">
+                                            October 2009 &ndash; October 2011
+                                        </div>
+                                        <h3 class="c-work__heading">
+                                            Oracle <span class="c-work__location">Through ASM Technologies</span>
+                                        </h3>
+                                        <h4 class="c-work__title">
+                                            User Interface designer and developer
+                                        </h4>
+
+                                        <div class="c-work__location">
+                                            Bangalore, India
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /o-grid -->
+                            </div>
+                            <!-- /o-content -->
+                        </div>
+                        <!-- /c-timeline__item -->
+
+                        <div class="c-timeline__item">
+                            <div class="c-timeline__point  t-timeline__point  t-primary-bg"></div>
+                            <div class="o-content">
+                                <div class="o-grid">
+                                    <div class="o-grid__col-md-5">
+                                        <div class="c-work__timeframe">
+                                            June 2008 &ndash; October 2009
+                                        </div>
+                                        <h3 class="c-work__heading">Trellisys Net</h3>
+                                        <h4 class="c-work__title">
+                                            User Interface Developer
+                                        </h4>
+
+                                        <div class="c-work__location">
+                                            Bangalore, India
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /o-grid -->
+                            </div>
+                            <!-- /o-content -->
+                        </div>
+                        <!-- /c-timeline__item -->
+
+
+                        <div class="c-timeline__item">
+                            <div class="c-timeline__point  t-timeline__point  t-primary-bg"></div>
+                            <div class="o-content">
+                                <div class="o-grid">
+                                    <div class="o-grid__col-md-5">
+                                        <div class="c-work__timeframe">
+                                            May 2007 &ndash; May 2008
+                                        </div>
+                                        <h3 class="c-work__heading">
+                                            NXP Semiconductors (Philips) <span class="c-work__location">Through Thinkways Technologies</span>
+                                        </h3>
+                                        <h4 class="c-work__title">
+                                            User Interface Designer
+                                        </h4>
+
+                                        <div class="c-work__location">
+                                            Bangalore, India
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- /o-grid -->
+                            </div>
+                            <!-- /o-content -->
+                        </div>
+                        <!-- /c-timeline__item -->
+
+                    </div>
+                    <!-- /c-timeline -->
+
+                </div>
+                <!-- /c-section__content -->
+
+            </div>
+            <!-- /c-section__container -->
+        </div>
+        <!-- /o-container -->
+
+    </section>
+    <!-- /c-section -->
+
+
+    <!-- ############################### -->
+    <!-- ########## EDUCATION ########## -->
+    <!-- ############################### -->
+
+    <section class="c-section  t-section  ">
+
+        <div class="c-section__header-bg  t-section__header"></div>
+        <div class="c-section__content-bg  t-section__content"></div>
+
+        <div class="o-container">
+            <div class="c-section__container">
+
+                <header class="c-section__header  t-section__header">
+                    <div class="o-content">
+                        <h2 class="c-section__heading">
+                            Education
+                        </h2>
+
+                        <div class="o-content__body  c-section__description">
+                            Lazy isn&#39;t in my vocabulary.
+                        </div>
+                    </div>
+                </header>
+                <!-- /c-section__header -->
+
+                <div class="c-section__content  t-section__content  u-pt-0">
+
+                    <div class="o-content">
+                        <div class="a-education-timeline  c-timeline  t-border-color  c-section__full-top-space">
+                            <div class="c-timeline__end  t-border-color"></div>
+
+                            <div class="c-timeline__item">
+                                <div class="c-timeline__point  t-timeline__point  t-primary-bg"></div>
+                                <div class="o-content">
+                                    <div class="o-grid">
+                                        <div class="o-grid__col-md-5">
+                                            <div class="c-work__timeframe">
+                                                2008 &ndash; 2011
+                                            </div>
+                                            <h3 class="c-work__heading">
+                                                Karnataka State Open University
+                                            </h3>
+                                            <h4 class="c-work__title">
+                                                Bachelor of Fine Arts (Applied Arts)
+                                            </h4>
+
+                                            <div class="c-work__location">
+                                                Mysore, India
+                                            </div>
+                                        </div>
+                                        <div class="o-grid__col-md-7">
+                                            <p></p>
+                                        </div>
+                                    </div>
+                                    <!-- /o-grid -->
+                                </div>
+                                <!-- /o-content -->
+                            </div>
+                            <!-- /c-timeline__item -->
+
+                            <div class="c-timeline__item">
+                                <div class="c-timeline__point  t-timeline__point  t-primary-bg"></div>
+                                <div class="o-content">
+                                    <div class="o-grid">
+                                        <div class="o-grid__col-md-5">
+                                            <div class="c-work__timeframe">
+                                                2004 &ndash; 2005
+                                            </div>
+                                            <h3 class="c-work__heading">
+                                                Arena Multemedia
+                                            </h3>
+                                            <h4 class="c-work__title">
+                                                Diploma in Multimedia
+                                            </h4>
+
+                                            <div class="c-work__location">
+                                                Bangalore, India
+                                            </div>
+                                        </div>
+                                        <div class="o-grid__col-md-7">
+                                            <p></p>
+                                        </div>
+                                    </div>
+                                    <!-- /o-grid -->
+                                </div>
+                                <!-- /o-content -->
+                            </div>
+                            <!-- /c-timeline__item -->
+
+                            <div class="c-timeline__item">
+                                <div class="c-timeline__point  t-timeline__point  t-primary-bg"></div>
+                                <div class="o-content">
+                                    <div class="o-grid">
+                                        <div class="o-grid__col-md-5">
+                                            <div class="c-work__timeframe">
+                                                2002 &ndash; 2004
+                                            </div>
+                                            <h3 class="c-work__heading">
+                                                Vidyavahini Preuniversity College
+                                            </h3>
+                                            <h4 class="c-work__title">
+                                                PCMCs
+                                            </h4>
+
+                                            <div class="c-work__location">
+                                                Tumkur, India
+                                            </div>
+                                        </div>
+                                        <div class="o-grid__col-md-7">
+                                            <p></p>
+                                        </div>
+                                    </div>
+                                    <!-- /o-grid -->
+                                </div>
+                                <!-- /o-content -->
+                            </div>
+                            <!-- /c-timeline__item -->
+
+                        </div>
+                        <!-- /c-timeline -->
+                    </div>
+                    <!-- /o-content -->
+
+                </div>
+                <!-- /c-section__content -->
+
+            </div>
+            <!-- /c-section__container -->
+        </div>
+        <!-- /o-container -->
+
+    </section>
+    <!-- /c-section -->
+
+
+    <section class="c-section  t-section  ">
+
+        <div class="c-section__header-bg  t-section__header"></div>
+        <div class="c-section__content-bg  t-section__content"></div>
+
+        <div class="o-container">
+            <div class="c-section__container">
+
+                <header class="c-section__header  t-section__header">
+                    <div class="o-content">
+                        <h2 class="c-section__heading">
+                            Portfolio
+                        </h2>
+
+                        <div class="o-content__body  c-section__description">
+                            Here it gets interesting.
+                        </div>
+                    </div>
+                </header>
+
+                <div class="c-section__content  t-section__content  c-section__full-bottom-space">
+
+                    <div class="o-grid  o-grid--gallery">
+
+                        <div class="o-grid__col-sm-6">
+                            <a class="c-image-overlay  t-image-overlay  js-lightbox"
+                               href="assets/images/portfolio/dhl-mobile-app.png" data-lightbox-hidpi=""
+                               title="Musée du Louvre"
+                               data-lightbox-gallery="portfolio">
+                                <img src="assets/images/portfolio/dhl-mobile-app_thumb.png" alt="">
+
+                                <div class="c-image-overlay__content">
+                                    <h3>
+                                        DHL Mobile App
+                                    </h3>
+
+                                    <!--<p>
+                                        Fusce lacinia arcu et nulla. Nulla vitae mauris non felis mollis faucibus. Lorem
+                                        ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </p>-->
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="o-grid__col-sm-6">
+                            <a class="c-image-overlay  t-image-overlay  js-lightbox"
+                               href="assets/images/portfolio/eiffage-mobile-app.png" data-lightbox-hidpi=""
+                               title="Tunnel Effect"
+                               data-lightbox-gallery="portfolio">
+                                <img src="assets/images/portfolio/eiffage-mobile-app_thumb.png" alt="">
+
+                                <div class="c-image-overlay__content">
+                                    <h3>
+                                        Eiffage Mobiel App
+                                    </h3>
+
+                                    <!--<p>
+                                        Fusce lacinia arcu et nulla. Nulla vitae mauris non felis mollis faucibus. Lorem
+                                        ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </p>-->
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="o-grid__col-sm-6">
+                            <a class="c-image-overlay  t-image-overlay  js-lightbox"
+                               href="assets/images/portfolio/freshmarket-mobile-app.png" data-lightbox-hidpi=""
+                               title="New York, New York" data-lightbox-gallery="portfolio">
+                                <img src="assets/images/portfolio/freshmarket-mobile-app_thumb.png" alt="">
+
+                                <div class="c-image-overlay__content">
+                                    <h3>
+                                        Fresh Market super market App
+                                    </h3>
+
+                                    <!--<p>
+                                        Fusce lacinia arcu et nulla. Nulla vitae mauris non felis mollis faucibus. Lorem
+                                        ipsum dolor sit amet, consectetuer adipiscing elit.
+                                    </p>-->
+                                </div>
+                            </a>
+                        </div>
+                        <!--
+                                                &lt;!&ndash; /o-grid__col &ndash;&gt;
+
+                                                <div class="o-grid__col-sm-6">
+                                                    <a class="c-image-overlay  t-image-overlay  js-lightbox"
+                                                       href="assets/images/portfolio/4_full.jpg" data-lightbox-hidpi="" title="Sky High"
+                                                       data-lightbox-gallery="portfolio">
+                                                        <img src="assets/images/portfolio/4_thumb.jpg" alt="">
+
+                                                        <div class="c-image-overlay__content">
+                                                            <h3>
+                                                                Sky High
+                                                            </h3>
+
+                                                            <p>
+                                                                Fusce lacinia arcu et nulla. Nulla vitae mauris non felis mollis faucibus. Lorem
+                                                                ipsum dolor sit amet, consectetuer adipiscing elit.
+                                                            </p>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                &lt;!&ndash; /o-grid__col &ndash;&gt;
+
+                                                <div class="o-grid__col-sm-6">
+                                                    <a class="c-image-overlay  t-image-overlay  js-lightbox"
+                                                       href="assets/images/portfolio/5_full.jpg" data-lightbox-hidpi="" title="The Eiffel Tower"
+                                                       data-lightbox-gallery="portfolio">
+                                                        <img src="assets/images/portfolio/5_thumb.jpg" alt="">
+
+                                                        <div class="c-image-overlay__content">
+                                                            <h3>
+                                                                The Eiffel Tower
+                                                            </h3>
+
+                                                            <p>
+                                                                Fusce lacinia arcu et nulla. Nulla vitae mauris non felis mollis faucibus. Lorem
+                                                                ipsum dolor sit amet, consectetuer adipiscing elit.
+                                                            </p>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                &lt;!&ndash; /o-grid__col &ndash;&gt;
+
+                                                <div class="o-grid__col-sm-6">
+                                                    <a class="c-image-overlay  t-image-overlay  js-lightbox"
+                                                       href="assets/images/portfolio/6_full.jpg" data-lightbox-hidpi=""
+                                                       title="Reaching the Clouds" data-lightbox-gallery="portfolio">
+                                                        <img src="assets/images/portfolio/6_thumb.jpg" alt="">
+
+                                                        <div class="c-image-overlay__content">
+                                                            <h3>
+                                                                Reaching the Clouds
+                                                            </h3>
+
+                                                            <p>
+                                                                Fusce lacinia arcu et nulla. Nulla vitae mauris non felis mollis faucibus. Lorem
+                                                                ipsum dolor sit amet, consectetuer adipiscing elit.
+                                                            </p>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                                &lt;!&ndash; /o-grid__col &ndash;&gt;-->
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <!-- /c-section -->
+
+
+    <!-- ############################# -->
+    <!-- ########## CLIENTS ########## -->
+    <!-- ############################# -->
+
+    <section class="c-section  t-section  ">
+
+        <div class="c-section__header-bg  t-section__header"></div>
+        <div class="c-section__content-bg  t-section__content"></div>
+
+        <div class="o-container">
+            <div class="c-section__container">
+
+                <header class="c-section__header  t-section__header">
+                    <div class="o-content">
+                        <h2 class="c-section__heading">
+                            Clients
+                        </h2>
+
+                        <div class="o-content__body  c-section__description">
+                            Happy people.
+                        </div>
+                    </div>
+                </header>
+                <!-- /c-section__header -->
+
+                <div class="c-section__content  t-section__content  ">
+
+                    <ul class="c-clients  o-content">
+                        <li>
+                            <a href="#">
+                                <img src="assets/images/clients/oracle.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="assets/images/clients/ING_Group_N.V._logo.svg.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="assets/images/clients/philips.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="assets/images/clients/amadeus.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="assets/images/clients/singapore-airlines.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="assets/images/clients/genpact-master-blue-big.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="assets/images/clients/ING_Group_N.V._logo.svg.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="assets/images/clients/BT_Logo.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="assets/images/clients/Dhl_logo.svg.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="assets/images/clients/eiffage1.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="assets/images/clients/Philip-Morris-logo_Lithuania-success-stories.png"
+                                     alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="assets/images/clients/Sonata_Software_Logo.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="assets/images/clients/tui.png" alt="">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img src="assets/images/clients/British_American_Tobacco_logo.svg.png" alt="">
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- /o-float-box -->
+
+                </div>
+                <!-- /c-section__content -->
+
+            </div>
+            <!-- /c-section__container -->
+        </div>
+        <!-- /o-container -->
+
+    </section>
+    <!-- /c-section -->
+
+
+    <!-- ############################ -->
+    <!-- ########## FOOTER ########## -->
+    <!-- ############################ -->
+
+    <section class="c-section  t-section  c-section--footer">
+
+        <div class="c-section__header-bg  t-section__header"></div>
+        <div class="c-section__content-bg  t-section__content"></div>
+
+        <div class="o-container">
+            <div class="c-section__container">
+
+                <header class="c-section__header  t-section__header">
+                    <div class="o-content">
+                        <h2 class="c-section__heading">
+                            Contact
+                        </h2>
+
+                        <div class="o-content__body  c-section__description">
+                            Call me, maybe.
+                        </div>
+                    </div>
+                </header>
+                <!-- /c-section__header -->
+
+                <div class="c-section__content  t-section__content  ">
+
+                    <div class="c-footer__contact">
+                        <div class="o-grid">
+
+                            <div class="o-grid__col-md-3  o-grid__col-sm-6">
+                                <div class="o-content">
+                                    <div class="o-content__body">
+                                        <h4>Location</h4>
+                                        <address>
+                                            Bangalore, India
+                                        </address>
+                                    </div>
+                                </div>
+                                <!-- /o-content -->
+                            </div>
+                            <!-- /o-grid__col -->
+
+                            <div class="o-grid__col-md-3  o-grid__col-sm-6">
+                                <div class="o-content">
+                                    <div class="o-content__body">
+                                        <h4>Phone</h4>
+
+                                        <p>
+                                            +91 9886 312 325
+                                        </p>
+                                    </div>
+                                </div>
+                                <!-- /o-content -->
+                            </div>
+                            <!-- /o-grid__col -->
+
+                            <div class="o-grid__col-md-3  o-grid__col-sm-6">
+                                <div class="o-content">
+                                    <div class="o-content__body">
+                                        <a href="http://graphicana.co.in" target="_blank" class="t-link-container">
+                                            <h4>Web</h4>
+
+                                            <p>
+                                                <span class="t-link-container__item--blended">
+                                                    www.graphicana.co.in
+                                                </span>
+                                            </p>
+                                        </a><!-- /o-link-container -->
+                                    </div>
+                                </div>
+                                <!-- /o-content -->
+                            </div>
+                            <!-- /o-grid__col -->
+
+                            <div class="o-grid__col-md-3  o-grid__col-sm-6">
+                                <div class="o-content">
+                                    <div class="o-content__body">
+                                        <a href="mailto:pavan@graphicana.co.in" target="_top" class="t-link-container">
+                                            <h4>Email</h4>
+
+                                            <p>
+                                                <span class="t-link-container__item--blended">
+                                                    pavan@graphicana.co.in
+                                                </span>
+                                            </p>
+                                        </a><!-- /o-link-container -->
+                                    </div>
+                                </div>
+                                <!-- /o-content -->
+                            </div>
+                            <!-- /o-grid__col -->
+
+                        </div>
+                        <!-- /o-grid -->
+                    </div>
+                    <!-- /c-footer__contact -->
+
+                    <hr class="c-footer__contact-divider"/>
+
+                    <div class="o-content">
+                        <div class="c-footer__bottom">
+                            <div class="c-footer__brand">
+
+                                <div class="c-brand">
+                                    <hgroup>
+                                        <div class="o-content__body">
+                                            <h1 class="c-brand__title  t-title">
+                                                <span class="c-brand__sizer  c-brand__sizer--sm">
+                                                    <span
+                                                    class="a-footer  c-brand__second-word  t-title__second-word">
+                                                        Pavan
+                                                    </span>
+                                                    <span
+                                                    class="a-footer  c-brand__first-word  t-title__first-word">
+                                                        Kondapuram
+                                                    </span>
+                                                </span>
+                                            </h1>
+                                        </div>
+                                        <!-- /o-content__body -->
+                                    </hgroup>
+                                </div>
+                                <!-- /c-brand -->
+
+                            </div>
+                            <!-- /c-footer__brand -->
+
+                            <ul class="c-footer__social-buttons  c-social-buttons  o-content__body">
+                                <li class="a-footer">
+                                    <a href="https://www.facebook.com/pavan.sry/" target="_blank"
+                                       class="c-social-button  t-social-button">
+                                        <i class="fa  fa-lg  fa-facebook"></i>
+                                    </a>
+                                </li>
+                                <li class="a-footer">
+                                    <a href="https://www.linkedin.com/in/graphicana" target="_blank"
+                                       class="c-social-button  t-social-button">
+                                        <i class="fa  fa-lg  fa-linkedin"></i>
+                                    </a>
+                                </li>
+                                <li class="a-footer">
+                                    <a href="https://twitter.com/pavan_sry" target="_blank"
+                                       class="c-social-button  t-social-button">
+                                        <i class="fa  fa-lg  fa-twitter"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                            <!-- /c-footer__social-buttons -->
+
+                        </div>
+                        <!-- /c-footer__bottom -->
+                    </div>
+                    <!-- /o-content -->
+
+                </div>
+                <!-- /c-section__content -->
+
+            </div>
+            <!-- /c-section__container -->
+        </div>
+        <!-- /o-container -->
+
+    </section>
+    <!-- /c-section -->
+
+
+</div>
+<!-- /c-main-container -->
+
 </body>
+
+
+<!-- Mirrored from htmldemos.ruventhemes.com/desmond-resume/light/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 08 Jun 2016 04:44:57 GMT -->
 </html>
