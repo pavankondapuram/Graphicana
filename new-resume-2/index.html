@@ -38,6 +38,13 @@
 
     <!-- jQuery -->
     <script src="assets/js/jquery.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+
+    <!--jQuery flickr gallery-->
+    <script src="assets/js/FlickrAPI.js"></script>
+    <script src="assets/js/Flickr.Gallery.js"></script>
+    <link rel="stylesheet" href="assets/css/flickr-gallery.css">
+
 
     <!-- dense.js (Retina plugin) -->
     <script src="assets/js/dense.js"></script>
@@ -312,7 +319,8 @@
                                     learnt to code frontend languages like HTML, CSS and Javascript. This makes me a
                                     successful combination of usability thinker and user interface expert.</p>
 
-                                <p>I am working since 10+ years in User Expereince & User Interface arena and have served
+                                <p>I am working since 10+ years in User Expereince & User Interface arena and have
+                                    served
                                     big corporates like Oracle, Philips, TUI, Wipro, Singapore Airlines and many more,
                                     as well as few start ups.</p>
 
@@ -862,11 +870,17 @@
                                         </div>
                                     </div>
                                     <div class="o-grid__col-md-7">
-                                        <p>Leading UX team at Oracle SCC pre-sales, my job is to analyze client requirement, design interaction
-                                            / information architecture along with an Oracle product expert, design wireframes after interaction flow
-                                            is accepted by all stakeholders and involve in high fidelity designs and make sure UI is developed
-                                            exactly the way expected by the client.</p><p>
-                                            I am also involved in rapid prototype development and sometimes even in developing HTML, CSS and
+                                        <p>Leading UX team at Oracle SCC pre-sales, my job is to analyze client
+                                            requirement, design interaction
+                                            / information architecture along with an Oracle product expert, design
+                                            wireframes after interaction flow
+                                            is accepted by all stakeholders and involve in high fidelity designs and
+                                            make sure UI is developed
+                                            exactly the way expected by the client.</p>
+
+                                        <p>
+                                            I am also involved in rapid prototype development and sometimes even in
+                                            developing HTML, CSS and
                                             bits of javascript.</p>
                                     </div>
                                 </div>
@@ -895,10 +909,15 @@
                                         </div>
                                     </div>
                                     <div class="o-grid__col-md-7">
-                                        <p>As a freelance UX and UI consultant, I was taking up projects on redesigning complex UIs to simplify
-                                            and make them user-friendly, usually enterprise applications.</p><p>
-                                            My knowledge in technology and development related to hybrid apps, new age web apps, wearable
-                                            devices and chatbots through a better understanding of javascript frameworks is an advantage for me
+                                        <p>As a freelance UX and UI consultant, I was taking up projects on redesigning
+                                            complex UIs to simplify
+                                            and make them user-friendly, usually enterprise applications.</p>
+
+                                        <p>
+                                            My knowledge in technology and development related to hybrid apps, new age
+                                            web apps, wearable
+                                            devices and chatbots through a better understanding of javascript frameworks
+                                            is an advantage for me
                                             to bridge the gap between client and developers.</p>
                                     </div>
                                 </div>
@@ -928,9 +947,12 @@
                                         </div>
                                     </div>
                                     <div class="o-grid__col-md-7">
-                                        <p>Leading a team of 25 freshly recruited artists and 15 members experienced UX designers’ team, my
-                                            job is to analyze UX hungry projects inside few LOBs of Wipro and lead the UX practice by allocating
-                                            right resource for the job and making sure deliverables are exactly as per requirement.</p>
+                                        <p>Leading a team of 25 freshly recruited artists and 15 members experienced UX
+                                            designers’ team, my
+                                            job is to analyze UX hungry projects inside few LOBs of Wipro and lead the
+                                            UX practice by allocating
+                                            right resource for the job and making sure deliverables are exactly as per
+                                            requirement.</p>
                                     </div>
                                 </div>
                                 <!-- /o-grid -->
@@ -1240,7 +1262,7 @@
 
                     <div class="o-grid  o-grid--gallery">
 
-                        <div class="o-grid__col-sm-6">
+                        <!--<div class="o-grid__col-sm-6">
                             <a class="c-image-overlay  t-image-overlay  js-lightbox"
                                href="assets/images/portfolio/dhl-mobile-app.png" data-lightbox-hidpi=""
                                title="Musée du Louvre"
@@ -1252,14 +1274,18 @@
                                         DHL Mobile App
                                     </h3>
 
-                                    <!--<p>
+                                    &lt;!&ndash;<p>
                                         Fusce lacinia arcu et nulla. Nulla vitae mauris non felis mollis faucibus. Lorem
                                         ipsum dolor sit amet, consectetuer adipiscing elit.
-                                    </p>-->
+                                    </p>&ndash;&gt;
                                 </div>
                             </a>
-                        </div>
 
+
+                        </div>-->
+                        <div class="o-grid__col-sm-6">
+                            <div class="niceGallery" id="gallery1"></div>
+                        </div>
                         <div class="o-grid__col-sm-6">
                             <a class="c-image-overlay  t-image-overlay  js-lightbox"
                                href="assets/images/portfolio/eiffage-mobile-app.png" data-lightbox-hidpi=""

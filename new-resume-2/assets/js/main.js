@@ -1,40 +1,41 @@
-
-
-
-$(document).ready(function() {
+$(document).ready(function () {
 
     $('html').addClass('js-enabled');
 
     setup_nivo_lightbox();
     setup_dense();
 
-    $(window).load(function() {
-        $(".js-preloader").fadeOut(800, function() {
+    $(window).load(function () {
+        $(".js-preloader").fadeOut(800, function () {
             $(".js-main-container").fadeIn(800);
-
             setup_scrollreveal();
         });
     });
-
+    $("#gallery1").flickrGallery({
+        Key: 'dd7e89c7f0c07a951c30b34d7a013486',
+        Secret: 'd792124bcd9f09bb',
+        User: '130110901@N08',
+        PhotoSet: '72157690010997725',
+        Speed: 400,
+        navigation: 1,
+        keyboard: 1,
+        numberEl: 1
+    });
 });
 
 
-
 function setup_dense() {
-    if($.isFunction($.fn.dense)) {
-
+    if ($.isFunction($.fn.dense)) {
         $('img').dense({
             'glue': '@'
         });
-
     }
 }
 
 
-
 function setup_scrollreveal() {
 
-    if(typeof ScrollReveal !== 'undefined' && $.isFunction(ScrollReveal)) {
+    if (typeof ScrollReveal !== 'undefined' && $.isFunction(ScrollReveal)) {
 
         window.sr = ScrollReveal();
 
@@ -65,22 +66,21 @@ function setup_scrollreveal() {
 }
 
 
-
 function setup_nivo_lightbox() {
-    if($.isFunction($.fn.nivoLightbox)) {
+    if ($.isFunction($.fn.nivoLightbox)) {
 
         var $selector = $('.js-lightbox');
 
         // Hide all titles to prevent tooltip from showing
-        $selector.each(function() {
+        $selector.each(function () {
             var title = $(this).attr('title');
             $(this).attr('data-title', title);
             $(this).attr('title', '');
         });
 
         // On click, add titles back, so lightbox can display them
-        $selector.click(function() {
-            $selector.each(function() {
+        $selector.click(function () {
+            $selector.each(function () {
                 var title = $(this).attr('data-title');
                 $(this).attr('title', title);
             });
@@ -91,14 +91,20 @@ function setup_nivo_lightbox() {
             theme: 'default',                             // The lightbox theme to use
             keyboardNav: true,                            // Enable/Disable keyboard navigation (left/right/escape)
             clickOverlayToClose: true,                    // If false clicking the "close" button will be the only way to close the lightbox
-            onInit: function(){},                         // Callback when lightbox has loaded
-            beforeShowLightbox: function(){},             // Callback before the lightbox is shown
-            afterShowLightbox: function(lightbox){},      // Callback after the lightbox is shown
-            beforeHideLightbox: function(){},             // Callback before the lightbox is hidden
+            onInit: function () {
+            },                         // Callback when lightbox has loaded
+            beforeShowLightbox: function () {
+            },             // Callback before the lightbox is shown
+            afterShowLightbox: function (lightbox) {
+            },      // Callback after the lightbox is shown
+            beforeHideLightbox: function () {
+            },             // Callback before the lightbox is hidden
             //afterHideLightbox: function(){},              // Callback after the lightbox is hidden
-            onPrev: function(element){},                  // Callback when the lightbox gallery goes to previous item
-            onNext: function(element){},                  // Callback when the lightbox gallery goes to next item
-            afterHideLightbox: function() {
+            onPrev: function (element) {
+            },                  // Callback when the lightbox gallery goes to previous item
+            onNext: function (element) {
+            },                  // Callback when the lightbox gallery goes to next item
+            afterHideLightbox: function () {
                 // Remove title to prevent tooltip from showing
                 $selector.attr('title', '');
             },
