@@ -11,16 +11,13 @@ $(document).ready(function () {
             setup_scrollreveal();
         });
     });
-    $("#gallery1").flickrGallery({
-        Key: 'dd7e89c7f0c07a951c30b34d7a013486',
-        Secret: 'd792124bcd9f09bb',
-        User: '130110901@N08',
-        PhotoSet: '72157690010997725',
-        Speed: 400,
-        navigation: 1,
-        keyboard: 1,
-        numberEl: 1
-    });
+    $("#gallery1").flickrGallery1({});
+    $("#gallery2").flickrGallery2({});
+    $("#gallery3").flickrGallery3({});
+    $("#gallery4").flickrGallery4({});
+    $("#gallery5").flickrGallery5({});
+    $("#gallery6").flickrGallery6({});
+    $("#gallery7").flickrGallery7({});
 });
 
 
