@@ -58,7 +58,7 @@
     right: 0;
     margin-left: auto;
     margin-right: auto;
-/*    background: url(img/plus.svg) center no-repeat;*/
+/*    background: url(../images/gallery/plus.svg) center no-repeat;*/
 /*    background-size: 25px;*/
     color: #fff;
     border: solid 1px #fff;
@@ -97,11 +97,11 @@
     background-size: 15px;
 }
 .niceGallery ul.entries-columns li .author {
-    background: url(img/user.svg) center left no-repeat;
+    background: url(../images/gallery/user.svg) center left no-repeat;
     float: left;
 }
 .niceGallery ul.entries-columns li .views {
-    background: url(img/views.svg) center left no-repeat;
+    background: url(../images/gallery/views.svg) center left no-repeat;
     float: right;
     margin-right: 9px;
 }
@@ -113,7 +113,7 @@
     width: 100%;
     top: 0px;
     left: 0px;
-    background-image: url(img/polygons.png);
+    background-image: url(../images/gallery/polygons.png);
     background-color: #151515;
     z-index: 99999;
     display: none;
@@ -169,17 +169,17 @@
     height: 100%;
     top: 0px;
     right: 0px;
-    padding: 0px 10px;
+    padding: 20px;
     background-size: 19px;
-    background-image: url(img/close.svg);
+    background-image: url(../images/gallery/close.svg);
 }
 .viewbox .panel .resize {
     height: 100%;
     top: 0px;
     right: 40px;
-    padding: 0px 10px;
+    padding: 20px;
     background-size: 15px;
-    background-image: url(img/resize.svg);
+    background-image: url(../images/gallery/resize.svg);
     border-right: solid 1px rgba(0, 0, 0, 0.14);
 }
 .viewbox .next, .viewbox .prev {
@@ -191,11 +191,11 @@
 }
 .viewbox .next {
     right: 10px;
-    background-image: url(img/next.svg);
+    background-image: url(../images/gallery/next.svg);
 }
 .viewbox .prev {
     left: 10px;
-    background-image: url(img/prev.svg);
+    background-image: url(../images/gallery/prev.svg);
 }
 /* CONTENT OF VIEWBOX */
 .viewbox .media_c {
@@ -215,7 +215,7 @@
     width: 100%;
     top: 0px;
     left: 0px;
-    background: url(img/oval.svg) center no-repeat;
+    background: url(../images/gallery/oval.svg) center no-repeat;
     background-size: 50px;
     z-index: 900;
     display: none;
@@ -258,7 +258,7 @@
     clear: none;
 }
 .viewbox .details .comments {
-    background-image: url(img/comments.svg);
+    background-image: url(../images/gallery/comments.svg);
     background-repeat: no-repeat;
     background-position: 9px center;
     background-size: 17px;

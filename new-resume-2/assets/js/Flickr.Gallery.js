@@ -2370,7 +2370,7 @@
             //FLICKR user ID
             User: '130110901@N08',
             //Flickr PhotoSet ID
-            PhotoSet: '72157687788341562',
+            PhotoSet: '72157687789462742',
             /*-- VIEWBOX SETTINGS --*/
             Speed		: 400,		//Speed of animations
             navigation	: 1,		//(true) Navigation (arrows)
